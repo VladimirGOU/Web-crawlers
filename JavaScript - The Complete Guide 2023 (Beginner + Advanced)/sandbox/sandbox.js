@@ -38,3 +38,7 @@ return friend
 
 console.log(map1);
 
+
+const age = 18;
+const hasAccess = age !== 18;
+console.log(!hasAccess)
