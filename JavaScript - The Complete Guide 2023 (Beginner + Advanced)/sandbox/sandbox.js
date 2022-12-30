@@ -18,16 +18,15 @@
 
 
 
-const friendName = ["Vova", "Vasyl", "Tomasz"];
-
+const friendName = ["Vova", "Vasyl", "Tomasz", "Jesus", "Celia", "Cam", "Jazz", "Dani"];
+friendName.sort();
 const map1 = friendName.map(friendMaping);
 
 function friendMaping(element, index){
 
 const friend = {
-
     name: element,
-    order: index + 1
+    orderId: index + 1
 
 }
 
