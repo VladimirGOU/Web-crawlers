@@ -1,3 +1,6 @@
+const e = require("express");
+const { text } = require("express");
+
 //Arithmetic operators
 let x = 10;
 let y = 10;
@@ -69,3 +72,62 @@ console.log('This customers status is =', typeOfCustomer);
 let surname = 'Klime';
 let surnameVerificatin = surname == 'Klim' ? 'OPEN' : 'DENIDED';
 console.log('Your access is ', surnameVerificatin);
+
+
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue) {
+      return 'Yes, that was true';
+    }
+    return 'No, that was false';
+    };
+    trueOrFalse(true);
+    console.log(trueOrFalse());
+
+    function testEqual(val) {
+        if (val > 10 ) { 
+          return "Equal";
+        }
+        return "Not Equal";
+      }
+      
+      testEqual();
+    console.log(testEqual());
+
+//LOGICAL OPERATORS we use to make decidion basen on multiply conditions
+// LOgical AND (&&) 
+//Return true if both operands are true
+console.log('Return true if both operands are true = ', true && false );
+
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome && goodCreditScore;
+console.log('eligibleForLoan', eligibleForLoan);
+
+//Logical OR (||)
+//Return TRUE if one of the operants is TRUE;
+
+let eligibleForLoanOr = highIncome || goodCreditScore;
+console.log('eligibleForLoan', eligibleForLoanOr);
+
+
+//NOT (!)
+let applicationRefused = !eligibleForLoan;
+console.log('applicationRefused', applicationRefused);
+
+//Logocal Operators with Non-Booleans
+//Falsy (false)
+// undefind
+// null
+// 0
+// false 
+// '' 
+// NaN
+
+// Anything that is not Falsy -> Truthy
+
+
+
+// Short-circuiting
+false || 1 || 2 ; //Вернет 1 и дальше не пойдет так как уже нашел трули
+
+
