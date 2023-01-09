@@ -9,3 +9,22 @@ console.log('Solution 2 ', map2);
 
 Math.pow
 Math.pow()
+
+
+const inputElemets = [1, -4, 12, 0, -3, 29, -150];
+const positiveNimbers = inputElemets.filter( inputElemets => inputElemets >= 1 );
+console.log('Exercise 2');
+console.log('Initial array', inputElemets)
+console.log('Positive numbers filtered', positiveNimbers);
+
+const initialValue = 0;
+const sumWithInitial = positiveNimbers.reduce(
+    (accumulator, currentValue) => accumulator + currentValue,
+    initialValue
+  );
+  
+console.log('Sum of every positive element', sumWithInitial);
+
+
+
+
