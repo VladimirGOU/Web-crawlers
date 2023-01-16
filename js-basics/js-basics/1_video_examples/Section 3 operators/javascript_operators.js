@@ -131,3 +131,48 @@ console.log('applicationRefused', applicationRefused);
 false || 1 || 2 ; //Вернет 1 и дальше не пойдет так как уже нашел трули
 
 
+
+// IF ELSE 
+// Hour 
+// If Hour between 6am and 12 pm: Good moring!
+// Of it is between 12pm and 6pm: Good afternoon!
+// Otherwise: Good evening
+
+// if (condition) {
+//   statement
+// }
+// else if (anotherCondition) {
+//   statement
+// }
+// esle 
+//   statement 
+
+let hour = 21;
+
+if (hour >= 6 && hour <= 12) {
+  console.log('Good morning')
+}
+else if (hour >= 12 && hour <= 18) {
+  console.log('Good afternoon')
+}
+else 
+  console.log('Good evening')
+
+function summOfTwoNumbers(a, b) {
+  return sum = a + b;
+  console.log(summOfTwoNumbers);
+}
+let myFunction = summOfTwoNumbers(1, 2);
+console.log(myFunction);
+
+
+function mulple(p1, p2) {
+  console.log(mulple);
+  return p1 * p2
+}
+let mulpleResult = mulple(2, 2);
+console.log(mulpleResult);
+
+
+
+

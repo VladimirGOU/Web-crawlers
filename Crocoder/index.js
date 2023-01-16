@@ -27,4 +27,8 @@ console.log('Sum of every positive element', sumWithInitial);
 
 
 
+const inputMedianAndMean = [12, 46, 32, 64];
+const outputSum = inputMedianAndMean.reduce((accumulator, currentValue) => accumulator + currentValue,
+initialValue);
+console.log(outputSum);
 

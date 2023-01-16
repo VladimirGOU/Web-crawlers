@@ -41,3 +41,48 @@ console.log(map1);
 const age = 18;
 const hasAccess = age !== 18;
 console.log(!hasAccess)
+
+
+
+var x = 0;
+if (x == 0)
+console.log("Work");
+for (var i = 0; i < 5; i++)
+console.log(i);
+
+setTimeout(function time() {
+    console.log('Hello!');
+},5000);
+
+function test(a, b){
+    let sum =  a + b;
+    console.log(sum);
+    return sum
+}
+test(10, 10);
+
+const printSomething = function(){
+    console.log('Text');
+}
+printSomething();
+
+
+var multiply = function(x, y) {
+    return `${x} x ${y} = ${ x * y}`
+}
+console.log(multiply(2, 10));
+
+
+
+const array1 = [1, 2, 3];
+
+console.log(array1.includes(2));
+// Expected output: true
+
+const pets = ['cat', 'dog', 'bat'];
+
+console.log(pets.includes('cat'));
+// Expected output: true
+
+console.log(pets.includes('at'));
+// Expected output: false
