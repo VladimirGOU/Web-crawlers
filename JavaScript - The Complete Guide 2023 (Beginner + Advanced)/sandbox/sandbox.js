@@ -86,3 +86,6 @@ console.log(pets.includes('cat'));
 
 console.log(pets.includes('at'));
 // Expected output: false
+
+
+
