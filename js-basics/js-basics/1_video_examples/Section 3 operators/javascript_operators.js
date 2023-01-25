@@ -173,6 +173,13 @@ function mulple(p1, p2) {
 let mulpleResult = mulple(2, 2);
 console.log(mulpleResult);
 
+let clock = 12
 
+if (clock >= 6 && clock <=12)
+  console.log('Dobry Ranok');
+else if (clock >12 && clock <18)
+  console.log('Dobry Den');
+else
+  console.log('Nich pora spaty');
 
-
+ 
