@@ -2,9 +2,9 @@ var axios = require('axios');
 
 var config = {
   method: 'get',
-  url: 'https://www.blibli.com/backend/product-detail/products/ps--HYK-70004-02454/_summary',
+  url: 'https://catalog.sixty60.co.za/api/v1/search/products/category?categoryId=63d8346bf0cbac537c0e1323&size=1024&storeIds=62dabd7f832d656087c747d8,62dabedd2aa38c342af94d53&userId=639ad9280ea03d7b550d7f37&includePromotions=true&isXtraSavingsMember=false&particularMemberBonusBuyIds&missionId=5fa3fa73c2a45293417f4957&promotionChannel=sixty60',
   headers: { 
-    'user-agent': 'BlibliAndroid/9.7.0(5087) 6da6ce79-088f-480b-ba02-bc5e615eb863 Dalvik/2.1.0 (Linux; U; Android 12; sdk_gphone64_x86_64 Build/SE1A.220826.005)', 
+    "accept": "application/json"
   }
 };
 
