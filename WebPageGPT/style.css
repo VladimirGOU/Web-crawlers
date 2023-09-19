@@ -1,0 +1,63 @@
+/* Обнуляем отступы и поля у всего */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили для header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Стили для секции новостей */
+.news {
+    padding: 2rem;
+}
+
+.article {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Стили для footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+/* Стили для страницы аутотренинга */
+.content {
+    padding: 2rem;
+}
+
+.content h2 {
+    margin-bottom: 1rem;
+}
+
+.content p {
+    line-height: 1.6;
+}
