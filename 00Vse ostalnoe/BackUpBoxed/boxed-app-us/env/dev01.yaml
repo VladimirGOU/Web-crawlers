@@ -1,0 +1,10 @@
+PROXY_HOST: lpm-customer-efundamentals.zproxy.lum-superproxy.io
+PROXY_PORT: "24089"
+PROXY_USER: lum-customer-efundamentals-auth-token
+PROXY_PASS: __LPM_AUTH_TOKEN__
+
+SERVICE_NAME: "boxed-app-us-crawler"
+LOG_LEVEL: debug
+SERVER_FORCE_400_ERRORS: "true"
+ARCHIVE_BUCKET: ef-gather-dev01
+PROJECT_ID: ef-dev01-gather

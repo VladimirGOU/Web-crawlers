@@ -1,0 +1,381 @@
+{
+    "metadata": {
+        "status": 200,
+        "message": "OK",
+        "correlationId": "5109928772640736150"
+    },
+    "data": {
+        "product": {
+            "_id": "59a4936a9147261608e2e066",
+            "gid": 4315,
+            "updatedAt": "2022-09-30T19:45:48.523Z",
+            "createdAt": "2017-08-28T22:04:26.350Z",
+            "name": "Pepperidge Farm Herb Seasoned Stuffing",
+            "slug": "pepperidge-farm-herb-seasoned-stuffing",
+            "maxCartQuantity": null,
+            "isAgeGated": false,
+            "brand": "",
+            "extendedName": "",
+            "priceDisplayTemplate": "",
+            "sortBoost": 0,
+            "anchorPosition": null,
+            "shortDescription": "",
+            "longDescription": "",
+            "ingredients": "",
+            "notes": "",
+            "picture": "",
+            "productType": 0,
+            "defaultVariantProps": {
+                "upcs": [],
+                "productRequestReasons": [],
+                "lotMultiplier": 1,
+                "lotList": [],
+                "infoRequired": [],
+                "buyingSellingUnits": {
+                    "sellingUnit": 1,
+                    "buyingUnit": 1
+                }
+            },
+            "visualComparison": {
+                "wholesaleText": "",
+                "retailText": ""
+            },
+            "images": [],
+            "variantOptionTypes": [],
+            "variants": [
+                {
+                    "variant": {
+                        "_id": "59a493eda462403c088511cd",
+                        "gid": 5019,
+                        "brandingText": "Pepperidge Farm",
+                        "nameText": "Herb Seasoned Stuffing",
+                        "extendedInfoText": "3 x 16 oz",
+                        "extendedInfo2Text": "",
+                        "name": "Pepperidge Farm Herb Seasoned Stuffing",
+                        "extendedName": "3 x 16 oz.",
+                        "longDescription": "For holiday meals or everyday dinners, enjoy Pepperidge Farm stuffing- made from Pepperidge Farm's premium breads to create a gratifyingly delicious side dish!",
+                        "ingredients": "Unbromated Unbleached Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamine Mononitrate [Vitamin B1], Riboflavin [Vitamin B2], Folic Acid), Whole Wheat Flour, Salt, Sugar, Contains 2 Percent Or Less Of: Yeast, Canola Oil, Unsulphured Molasses, Spices (Contains Celery), Onion Powder, Calcium Propionate (To Retard Spoilage), Malted Barley Flour, Soy Lecithin\n\nContains: Wheat, Soy",
+                        "slug": "pepperidge-farm-herb-seasoned-stuffing-3-x-16-oz.",
+                        "sailthruSlug": "pepperidge-farm-herb-seasoned-stuffing-3-x-16-oz.",
+                        "brandObject": "56dcf54583ab7baf5d11de9a",
+                        "sku": "7480",
+                        "maxCartQuantity": null,
+                        "standardPrice": 11.59,
+                        "salePrice": null,
+                        "unitType": "oz",
+                        "unitCount": 48,
+                        "unitPrice": 0.24145833333333333,
+                        "retailUnitPrice": 0.458333,
+                        "unitSavingsText": "",
+                        "priceDisplayTemplate": "",
+                        "googleTitle": "",
+                        "googleDescription": "",
+                        "googleProductCategory": "",
+                        "price": 11.59,
+                        "upc": "014100074809",
+                        "dro": {
+                            "inventoryThreshold": null,
+                            "enabled": false
+                        },
+                        "nutritionFact": [
+                            "59c70fbafca069b30a2934ff"
+                        ],
+                        "variantValues": [],
+                        "inventory": [
+                            {
+                                "totalCount": 147,
+                                "availableCount": 147,
+                                "warehouse": "58d0459c234914823bc354b9",
+                                "externalVariantId": "5019",
+                                "priceDisplayTemplate": "",
+                                "price": 11.59,
+                                "standardPrice": 11.59,
+                                "salePrice": null,
+                                "smartCartPrice": 11.39,
+                                "savePercentOverride": 0,
+                                "unitPrice": 0.24145833333333333,
+                                "retailUnitPrice": 0.458333,
+                                "sourceObject": "59a9907b27261261094f22b7",
+                                "sku": "7480",
+                                "report": {
+                                    "contextualBandit": false,
+                                    "cbRequestId": null,
+                                    "priceOptimized": true,
+                                    "holdout": false,
+                                    "profitWeight": 0.25,
+                                    "fullyLoadedCost": 9.64,
+                                    "hasFullyLoadedCost": true
+                                }
+                            },
+                            {
+                                "totalCount": 147,
+                                "availableCount": 147,
+                                "warehouse": "575f0ac53a06a3210c61b223",
+                                "externalVariantId": "5019",
+                                "priceDisplayTemplate": "",
+                                "price": 11.59,
+                                "standardPrice": 11.59,
+                                "salePrice": null,
+                                "smartCartPrice": 11.39,
+                                "savePercentOverride": 0,
+                                "unitPrice": 0.24145833333333333,
+                                "retailUnitPrice": 0.458333,
+                                "sourceObject": "59a9907b27261261094f22b7",
+                                "sku": "7480",
+                                "report": {
+                                    "contextualBandit": false,
+                                    "cbRequestId": null,
+                                    "priceOptimized": true,
+                                    "holdout": false,
+                                    "profitWeight": 0.25,
+                                    "fullyLoadedCost": 9.64,
+                                    "hasFullyLoadedCost": true
+                                }
+                            },
+                            {
+                                "totalCount": 147,
+                                "availableCount": 147,
+                                "warehouse": "581a736d6b0bc3a208d26a24",
+                                "externalVariantId": "5019",
+                                "priceDisplayTemplate": "",
+                                "price": 11.59,
+                                "standardPrice": 11.59,
+                                "salePrice": null,
+                                "smartCartPrice": 11.39,
+                                "savePercentOverride": 0,
+                                "unitPrice": 0.24145833333333333,
+                                "retailUnitPrice": 0.458333,
+                                "sourceObject": "59a9907b27261261094f22b7",
+                                "sku": "7480",
+                                "report": {
+                                    "contextualBandit": false,
+                                    "cbRequestId": null,
+                                    "priceOptimized": true,
+                                    "holdout": false,
+                                    "profitWeight": 0.25,
+                                    "fullyLoadedCost": 9.64,
+                                    "hasFullyLoadedCost": true
+                                }
+                            }
+                        ],
+                        "variantOptionStatus": 1,
+                        "variantOptions": [],
+                        "videos": null,
+                        "deeplinkImage": {
+                            "aspectRatio": 1
+                        },
+                        "cinematicMobileImages": [],
+                        "cinematicFullImages": [],
+                        "images": [
+                            {
+                                "name": "1634233036991.jpg",
+                                "original": "https://static-assets.boxed.com/1634233036991.jpg",
+                                "r256x200": "https://static-assets.boxed.com/r256x200_1634233036991.jpg",
+                                "r512x400": "https://static-assets.boxed.com/r512x400_1634233036991.jpg",
+                                "originalBase": "static-assets.boxed.com/1634233036991.jpg",
+                                "r256x200Base": "static-assets.boxed.com/r256x200_1634233036991.jpg",
+                                "r512x400Base": "static-assets.boxed.com/r512x400_1634233036991.jpg",
+                                "_id": "61686ad9f76bbcc405630f0e"
+                            },
+                            {
+                                "name": "1634233039726.jpg",
+                                "original": "https://static-assets.boxed.com/1634233039726.jpg",
+                                "r256x200": "https://static-assets.boxed.com/r256x200_1634233039726.jpg",
+                                "r512x400": "https://static-assets.boxed.com/r512x400_1634233039726.jpg",
+                                "originalBase": "static-assets.boxed.com/1634233039726.jpg",
+                                "r256x200Base": "static-assets.boxed.com/r256x200_1634233039726.jpg",
+                                "r512x400Base": "static-assets.boxed.com/r512x400_1634233039726.jpg",
+                                "_id": "61686ad9f76bbc0f16630f0d"
+                            },
+                            {
+                                "name": "1634233042196.jpg",
+                                "original": "https://static-assets.boxed.com/1634233042196.jpg",
+                                "r256x200": "https://static-assets.boxed.com/r256x200_1634233042196.jpg",
+                                "r512x400": "https://static-assets.boxed.com/r512x400_1634233042196.jpg",
+                                "originalBase": "static-assets.boxed.com/1634233042196.jpg",
+                                "r256x200Base": "static-assets.boxed.com/r256x200_1634233042196.jpg",
+                                "r512x400Base": "static-assets.boxed.com/r512x400_1634233042196.jpg",
+                                "_id": "61686ad9f76bbc62ca630f0c"
+                            },
+                            {
+                                "name": "1634233044930.jpg",
+                                "original": "https://static-assets.boxed.com/1634233044930.jpg",
+                                "r256x200": "https://static-assets.boxed.com/r256x200_1634233044930.jpg",
+                                "r512x400": "https://static-assets.boxed.com/r512x400_1634233044930.jpg",
+                                "originalBase": "static-assets.boxed.com/1634233044930.jpg",
+                                "r256x200Base": "static-assets.boxed.com/r256x200_1634233044930.jpg",
+                                "r512x400Base": "static-assets.boxed.com/r512x400_1634233044930.jpg",
+                                "_id": "61686ad9f76bbcabf5630f0b"
+                            },
+                            {
+                                "name": "1634233047242.jpg",
+                                "original": "https://static-assets.boxed.com/1634233047242.jpg",
+                                "r256x200": "https://static-assets.boxed.com/r256x200_1634233047242.jpg",
+                                "r512x400": "https://static-assets.boxed.com/r512x400_1634233047242.jpg",
+                                "originalBase": "static-assets.boxed.com/1634233047242.jpg",
+                                "r256x200Base": "static-assets.boxed.com/r256x200_1634233047242.jpg",
+                                "r512x400Base": "static-assets.boxed.com/r512x400_1634233047242.jpg",
+                                "_id": "61686ad9f76bbc602f630f0a"
+                            }
+                        ],
+                        "excludedFromBackInStockNotification": false,
+                        "state": 2,
+                        "taxable": false,
+                        "inProductsList": true,
+                        "hasBottleDeposit": false,
+                        "smartCartPrice": 11.39,
+                        "source": "",
+                        "pieceCount": 0,
+                        "bottleVolume": 0,
+                        "stats": {
+                            "_id": "59c72d5716241b2208a4b5d1",
+                            "wishlistCount": 1739
+                        },
+                        "commodityCode": "",
+                        "isWhitelisted": false,
+                        "savePercentOverride": 0,
+                        "externalIds": [],
+                        "processedByProcessor": true,
+                        "availableCount": 147,
+                        "promotionBadge": {
+                            "url": "",
+                            "text": "",
+                            "showInPDP": false,
+                            "showInPLE": false,
+                            "textColorHex": "",
+                            "backgroundColorHex": ""
+                        },
+                        "report": {
+                            "contextualBandit": false,
+                            "cbRequestId": null,
+                            "priceOptimized": true,
+                            "holdout": false,
+                            "profitWeight": 0.25,
+                            "fullyLoadedCost": 9.64,
+                            "hasFullyLoadedCost": true
+                        },
+                        "totalCount": 147,
+                        "warehouse": "58d0459c234914823bc354b9",
+                        "fulfiller": "5206ac336f4349bb38000012",
+                        "fulfillerType": 2,
+                        "fulfillerLocation": "5d92368cb232ac44ad0cdbab",
+                        "fulfillerVariant": "5d95053d4ea6af449720ddf4",
+                        "fulfillerVariantFulfillmentMethod": "5d95053e4ea6af449720ddf8",
+                        "fulfillerVariantInventory": "5d95053e4ea6af449720ddf6",
+                        "fulfillerVariantLocationMapping": "5d95053e4ea6af449720ddf7",
+                        "fulfillmentMethodType": 0
+                    },
+                    "_id": "59a493eda462403c088511ce"
+                }
+            ],
+            "reportFactions": [],
+            "keywords": [
+                "pepperidge",
+                "thanksgiving",
+                "dinner",
+                "stuffing",
+                "stuffing mix",
+                "bread cubes",
+                "cubed bread",
+                "christmas",
+                "xmas",
+                "holiday",
+                "dressing",
+                "turkey",
+                "sides",
+                "bread",
+                "bread crumbs",
+                "croutons",
+                "cubes",
+                "crushed",
+                "herbs",
+                "herbed",
+                "seasoned",
+                "casserole",
+                "baked"
+            ],
+            "categories": [
+                {
+                    "name": "ALL",
+                    "path": "ALL",
+                    "_id": "59a855a90e47c59233680c04"
+                },
+                {
+                    "name": "GROCERY",
+                    "path": "ALL:GROCERY",
+                    "_id": "59a855a90e47c59233680c03"
+                },
+                {
+                    "name": "SNACK_TIME",
+                    "path": "ALL:GROCERY:SNACK_TIME",
+                    "_id": "59a855a90e47c59233680c02"
+                },
+                {
+                    "name": "B2B_ALL_PRODUCTS",
+                    "path": "ALL:B2B_ALL_PRODUCTS",
+                    "_id": "59a855a90e47c59233680c01"
+                },
+                {
+                    "name": "B2B_GROCERY",
+                    "path": "ALL:B2B_ALL_PRODUCTS:B2B_GROCERY",
+                    "_id": "59a855a90e47c59233680c00"
+                },
+                {
+                    "name": "B2B_MEAL_AND_PREP",
+                    "path": "ALL:B2B_ALL_PRODUCTS:B2B_GROCERY:B2B_MEAL_AND_PREP",
+                    "_id": "59a855a90e47c59233680bff"
+                },
+                {
+                    "name": "B2B_BAKING_AND_STOVETOP",
+                    "path": "ALL:B2B_ALL_PRODUCTS:B2B_GROCERY:B2B_MEAL_AND_PREP:B2B_BAKING_AND_STOVETOP",
+                    "_id": "59a855a90e47c59233680bfe"
+                },
+                {
+                    "name": "V2_WHOLESALE",
+                    "path": "ALL:V2_WHOLESALE",
+                    "_id": "59a855a90e47c59233680bfd"
+                },
+                {
+                    "name": "V2_PANTRY",
+                    "path": "ALL:V2_WHOLESALE:V2_PANTRY",
+                    "_id": "59a855a90e47c59233680bfc"
+                },
+                {
+                    "name": "V2_GROCERY",
+                    "path": "ALL:V2_WHOLESALE:V2_GROCERY",
+                    "_id": "59a855a90e47c59233680bfb"
+                },
+                {
+                    "name": "V2_BAKING_AND_STOVETOP",
+                    "path": "ALL:V2_WHOLESALE:V2_GROCERY:V2_BAKING_AND_STOVETOP",
+                    "_id": "59a855a90e47c59233680bfa"
+                },
+                {
+                    "name": "V3_ALL_BOXED_STANDARD",
+                    "path": "ALL:V3_ALL_BOXED_STANDARD",
+                    "_id": "5befbd8571c47c0100d196dd"
+                },
+                {
+                    "name": "V3_GROCERY_STANDARD",
+                    "path": "ALL:V3_ALL_BOXED_STANDARD:V3_GROCERY_STANDARD",
+                    "_id": "5befbd8571c47c0100d196dc"
+                },
+                {
+                    "name": "V3_MEALS_AND_CANNED_GOODS_STANDARD",
+                    "path": "ALL:V3_ALL_BOXED_STANDARD:V3_GROCERY_STANDARD:V3_MEALS_AND_CANNED_GOODS_STANDARD",
+                    "_id": "5befbd8571c47c0100d196db"
+                }
+            ],
+            "category": 0,
+            "galleryImageDisplayPosition": 0,
+            "inProductsList": false,
+            "__v": 2,
+            "caCleaningProductAct": {
+                "eligible": false
+            },
+            "externalIds": [],
+            "isWhitelisted": false,
+            "lastUpdatedBy": "stephanie@boxed.com"
+        }
+    }
+}

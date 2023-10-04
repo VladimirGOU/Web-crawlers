@@ -1,0 +1,12 @@
+{
+  "name": "express_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Volo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

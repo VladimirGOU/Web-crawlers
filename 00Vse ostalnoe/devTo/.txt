@@ -1,0 +1,5 @@
+lin to the article
+https://dev.to/uiii/web-scraping-with-nodejs-and-typescript-the-scraper-part-ffn
+
+nameOfTheArticle "Web scraping with Node.js and Typescript - the scraper part (1/3)"
+

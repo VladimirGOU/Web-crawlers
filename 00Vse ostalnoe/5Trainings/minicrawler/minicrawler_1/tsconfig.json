@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2018"],
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2018",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "outDir": "build"
+  },
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "index.ts",
+    "src/**/*.ts"
+  ]
+}

@@ -1,0 +1,10 @@
+PROXY_HOST: lpm-customer-efundamentals.zproxy.lum-superproxy.io
+PROXY_PORT: "24035"
+PROXY_USER: lum-customer-efundamentals-auth-token
+PROXY_PASS: __LPM_AUTH_TOKEN__
+
+SERVICE_NAME: "ocado-app_uk-crawler"
+LOG_LEVEL: debug
+SERVER_FORCE_400_ERRORS: "true"
+ARCHIVE_BUCKET: ef-gather-test
+PROJECT_ID: ef-test-gather

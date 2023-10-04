@@ -1,0 +1,32 @@
+{
+  "name": "boxed-app-us",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/src/index.js",
+  "types": "./build/src/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "env-cmd node build/src/index.js",
+    "test": "env-cmd -f test/.test.env mocha -r ts-node/register \"test/**/*.test.ts\"",
+    "spec": "env-cmd mocha -r ts-node/register \"test/**/*.spec.ts\"",
+    "depcheck": "depcheck --skip-missing --specials=bin,eslint,prettier,mocha --ignores=@types/superagent",
+    "lint": "eslint '**/*.ts'",
+    "fix": "eslint --fix '**/*.ts'",
+    "compile": "tsc",
+    "prestart": "yarn compile",
+    "pretest": "yarn compile",
+    "posttest": "yarn lint && yarn depcheck"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "apps/boxed-app-us",
+    "url": "git+https://github.com/efundamentals/crawlers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "../../.eslintrc.json"
+  }
+}
